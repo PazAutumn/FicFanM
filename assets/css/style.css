@@ -13,6 +13,11 @@ nav {
 	background-color: #772C57;
 }
 
+.side-nav {
+	background-color: #772C57;
+	color: #99D3B4;
+}
+
 .brand-logo img {
 	width: 100%;
 	height: auto;
@@ -46,20 +51,21 @@ nav {
 	border-radius: 8px;
 }
 
-.news {
+.settings {
+	width: 100%;
+	height: auto;
+	padding: 50px 0;
 	background-color: #99D3B4;
+}
+
+.settings h3 {
+	font-weight: bolder;
 }
 
 .categorias,.popular,.reciente {
 	background-color: #772C57;
 	border-radius: 5px;
-	margin: 15px 0;
-	padding: 0 20px;
 	color: white;
-}
-
-.categorias {
-	height: auto;
 }
 
 .categorias ul li a {
@@ -69,9 +75,33 @@ nav {
 	font-size: 20px;
 }
 
+.stories {
+	width: 100%;
+	height: auto;
+	background-color: #772C57;
+	border-radius: 5px;
+	color: #99D3B4;
+}
+
+.stories a p {
+	color: #99D3B4;
+	text-decoration: none;
+}
+
 .button {
 	width: 100%;
+	margin: 20px 0;
 	background-color: #772C57;
+}
+
+.collection .collection-item {
+	border: none;
+	background-color: #772C57;
+	color: #99D3B4;
+}
+
+.collection {
+	border: none;
 }
 
 .profile {
@@ -91,77 +121,44 @@ nav {
 	height: auto;
 	padding: 10px;
 	border-radius: 8px;
+	border: dotted 3px;
 	color: #772C57;
 }
 
 .facebook-btn {
-
 	background-color: #4267b2;
-
   color: #FFF;
-
   font-weight: 500;
-
   width: 100%;
-
   margin-top: -30px;
-
   margin-bottom: 10px;
-
 }
-
-
 
 #login-modal h4, #signup-modal h4 {
-
   text-transform: uppercase;
-
   font-size: 25px;
-
   font-weight: 800;
-
   background-color: #772C57;
-
   color: #fff;
-
   margin-top: -10px;
-
 }
-
-
 
 #login-modal p, #signup-modal p {
-
 	color: #772C57;
-
 }
-
-
 
 .welcome {
-
 	font-weight: 800;
-
 	font-size: 15px;
-
-} 
-
-
-
-svg.svg-inline--fa.fa-facebook-f.fa-w-9 {
-
-	margin-right: 12px;
-
 }
 
-
+svg.svg-inline--fa.fa-facebook-f.fa-w-9 {
+	margin-right: 12px;
+}
 
 #login-modal hr, #signup-modal hr {
-
 	border: 1px solid #772C57;
-
 	margin-top: 10px;
-
 }
 
 .start-btn {
@@ -170,11 +167,18 @@ svg.svg-inline--fa.fa-facebook-f.fa-w-9 {
 	width: 100%;
 	-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
-
 }
 
 input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
-
 	height: 2rem;
+}
 
+.page-footer {
+	background-color: #772C57;
+}
+
+.fa-plus-circle {
+	font-size: 50px;
+	color: white;
+	margin: 0 20px;
 }

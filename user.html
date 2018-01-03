@@ -6,6 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <!-- Mukta Malar Tipografía -->
+  <link href="https://fonts.googleapis.com/css?family=Mukta+Malar:400,500,700,800" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -44,7 +47,7 @@
 		    		<h5>Star Force</h5>
 		    	</li>
 		      <li><img class="responsive-img circle profile" style="width: 50px;" src="assets/img/profile.jpg" alt=""></li>
-		      
+		      <li><a href="#"><i class="fas fa-ellipsis-v"></i></a></li>
 		    </ul>
 			</div>
 		</nav>
@@ -73,11 +76,14 @@
 			    </div>
 				</form>
 			</li>
-      <li><a href="#">My Fanfics</a></li>
-      <li class="divider"></li>
-      <li><a href="#">Reviews</a></li>
-      <li class="divider"></li>
-      <li><a href="#">Following</a></li>
+      <li>
+			  <div class="collection">
+					<a href="#!" class="collection-item"><span class="badge">18</span>My Fanfics</a>
+					<a href="#!" class="collection-item"><span class="new badge">12</span>Reviews</a>
+					<a href="#!" class="collection-item"><span class="badge">250</span>Following</a>
+					<a href="#!" class="collection-item"><span class="badge">150</span>Followers</a>
+				</div>
+      </li>
     </ul>
   </div>
 	<!-- Sección perfil -->
@@ -87,61 +93,43 @@
 				<div class="col l4">
 					<img class="responsive-img circle profile" src="assets/img/profile.jpg" alt="">
 				</div>
+				<a href="#"><i class="fas fa-plus-circle left"></i></a>
 			</div>
 		</div>
 	</section>
-	<!-- News -->
-	<section class="news">
+	<!-- Setting -->
+	<section class="settings">
 		<div class="container">
 			<div class="row">
-				<div class="hide-on-small-only col l4">
+				<div class="col s12 l3">
 					<div class="row">
-						<div class="col l12 data">
-							<h2>Star Force</h2>
-							<h4>Ranking: 3.4</h4>
-							<h4>Followers: 150</h4>
+						<div class="col s12 l12 data">
+							<h3>Star Force</h3>
+							<h5>Ranking: 3.4</h5>
+							<h5>Followers: 150</h5>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col l12 categorias">
-							<ul>
-								<li><a href="#">My Fanfics</a></li>
-					      <li class="divider"></li>
-					      <li><a href="#">Reviews</a></li>
-					      <li class="divider"></li>
-					      <li><a href="#">Following</a></li>
-					      <li class="divider"></li>
-					      <li><a href="#">Followers</a></li>
-								<li class="divider"></li>
-					      <li><a href="#">Bookmarks</a></li>
-							</ul>
+						<div class="col l12 hide-on-small-only categorias">
+							<div class="collection">
+								<a href="#!" class="collection-item"><span class="badge">18</span>My Fanfics</a>
+								<a href="#!" class="collection-item"><span class="new badge">12</span>Reviews</a>
+								<a href="#!" class="collection-item"><span class="badge">250</span>Following</a>
+								<a href="#!" class="collection-item"><span class="badge">150</span>Followers</a>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col s12 hide-on-large-only">
-					<a class='dropdown-button btn button' href='#' data-activates='dropdown3'>Categories <i class="material-icons right">arrow_drop_down</i></a>
-					<ul id='dropdown3' class='dropdown-content'>
-						<li><a href="#!">Anime</a></li>
-						<li class="divider"></li>
-						<li><a href="#!">Series</a></li>
-						<li class="divider"></li>
-						<li><a href="#!">Movies</a></li>
-						<li class="divider"></li>
-						<li><a href="#!">Books</a></li>
-						<li class="divider"></li>
-						<li><a href="#!">Animation</a></li>
-					</ul>
-				</div>
-				<div class="col s12 l7 offset-l1">
+				<div class="col s12 l8 offset-l1">
 					<div class="row">
-						<div class="col s12 l12 reciente">
+						<div class="col s12 l12 stories center-align">
 							<div class="carousel">
-								<h3>Star's Recent Stories</h3>
-						    <a class="carousel-item" href="#one!"><img src="assets/img/cover1.png"></a>
-						    <a class="carousel-item" href="#one!"><img src="assets/img/cover2.jpeg"></a>
-						    <a class="carousel-item" href="#one!"><img src="assets/img/cover3.png"></a>
-						    <a class="carousel-item" href="#one!"><img src="assets/img/cover4.jpg"></a>
-						    <a class="carousel-item" href="#one!"><img src="assets/img/cover5.jpg"></a>
+								<h4>Star's Recent Stories</h4>
+						    <a class="carousel-item" href="#one!"><img src="assets/img/cover1-1.png"><p>A new start</p></a>
+						    <a class="carousel-item" href="#one!"><img src="assets/img/cover2-2.jpeg"><p>True Friendship</p></a>
+						    <a class="carousel-item" href="#one!"><img src="assets/img/cover3-3.png"><p>We are ready!</p></a>
+						    <a class="carousel-item" href="#one!"><img src="assets/img/cover4.jpg"><p>Silence</p></a>
+						    <a class="carousel-item" href="#one!"><img src="assets/img/cover5.jpg"><p>Our favorite things</p></a>
 						  </div>
 						</div>
 					</div>
@@ -149,10 +137,37 @@
 			</div>
 		</div>
 	</section>
+	<!-- footer -->
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">FicFan</h5>
+          <p class="grey-text text-lighten-4">A space made for fans by fans</p>
+    		</div>
+		    <div class="col l4 offset-l2 s12">
+		      <h5 class="white-text">Find us in our social networks!</h5>
+		      <ul>
+		        <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-facebook-f"></i>Facebook</a></li>
+		        <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-twitter"> </i> Twitter</a></li>
+		        <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-apple"> </i> Available in IOS</a></li>
+		        <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-android"> </i> Available in Android</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2017 FicFan
+        <a class="grey-text text-lighten-4 right" href="#!">FAQ</a>
+      </div>
+    </div>
+  </footer>
 
 	<!-- Scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
   <script src="assets/js/app.js"></script>
 </body>
 </html>
