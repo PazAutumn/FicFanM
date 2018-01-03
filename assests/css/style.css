@@ -1,0 +1,70 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'roboto', sans-serif;
+}
+
+body {
+	background-color: #99D3B4;
+}
+
+nav {
+	background-color: #772C57;
+}
+
+.brand-logo img {
+	width: 100%;
+	height: auto;
+}
+
+.star {
+	width: 50%;
+	margin-top: 50px;
+}
+
+.ficfan {
+	width: 100%;
+	height: auto;
+	padding: 30px;
+}
+
+.info {
+	background-image: url(../img/Pixtopia_background_-_Outside_Pixie_Mirror_Office.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	color: white;
+}
+
+.panel {
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	margin-bottom: 20px;
+	background-color: #99D3B4;
+	border-radius: 8px;
+}
+
+.news {
+	background-color: #99D3B4;
+}
+
+.categorias,.popular,.reciente {
+	background-color: #772C57;
+	border-radius: 5px;
+	margin: 15px 0;
+	padding: 0 20px;
+	color: white;
+}
+
+.categorias {
+	height: auto;
+}
+
+.categorias ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	font-size: 20px;
+}
