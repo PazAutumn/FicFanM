@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FicFan</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<!-- NavBar -->
+	<ul id="dropdown1" class="dropdown-content">
+	  <li><a href="#!">Spanish</a></li>
+	  <li class="divider"></li>
+	  <li><a href="#!">English</a></li>
+	</ul>
+	<ul id="dropdown2" class="dropdown-content">
+	  <li><a href="#!">Spanish</a></li>
+	  <li class="divider"></li>
+	  <li><a href="#!">English</a></li>
+	</ul>
+	<div class="navbar-fixed">
+		<nav>
+		  <div class="nav-wrapper">
+		    <a href="#!" class="brand-logo">
+		    	<img src="assets/img/1_Primary_logo_on_transparent_321x642.png" alt="">
+		    </a>
+		    <a href="#" data-activates="mobile-demo" class="button-collapse">
+		    	<i class="material-icons">menu</i>
+		    </a>
+		    <ul class="right hide-on-med-and-down">
+		    	<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Language<i class="material-icons right">arrow_drop_down</i></a></li>
+		    	<li>
+		    		<form>
+			        <div class="input-field">
+			          <input id="search" type="search" required>
+			          <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+			          <i class="material-icons">close</i>
+			        </div>
+			      </form>
+		    	</li>
+		    	<li>
+		    		<h5>Star Force</h5>
+		    	</li>
+		      <li><img class="responsive-img circle profile" style="width: 50px;" src="assets/img/profile.jpg" alt=""></li>
+		      
+		    </ul>
+			</div>
+		</nav>
+	</div>
+	<div class="nav-wrapper">
+    <ul class="side-nav" id="mobile-demo">
+    	<li>
+    		<div class="container">
+    			<div class="row">
+    				<div class="col s4">
+    					<img class="responsive-img circle profile" style="width: 50px;" src="assets/img/profile.jpg" alt="">
+    				</div>
+    				<div class="col s8">
+    					<h4>Star Force</h4>
+    				</div>
+    			</div>
+    		</div>
+    	</li>
+    	<li><a class="dropdown-button" href="#!" data-activates="dropdown2">Language<i class="material-icons right">arrow_drop_down</i></a></li>
+    	<li>
+      	<form>
+					<div class="input-field">
+			      <input id="search" placeholder="Search" type="search" required>
+			      <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+			      <i class="material-icons">close</i>
+			    </div>
+				</form>
+			</li>
+      <li><a href="#">My Fanfics</a></li>
+      <li class="divider"></li>
+      <li><a href="#">Reviews</a></li>
+      <li class="divider"></li>
+      <li><a href="#">Following</a></li>
+    </ul>
+  </div>
+	<!-- Sección perfil -->
+	<section class="profilePage">
+		<div class="container">
+			<div class="row">
+				<div class="col l4">
+					<img class="responsive-img circle profile" src="assets/img/profile.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- News -->
+	<section class="news">
+		<div class="container">
+			<div class="row">
+				<div class="hide-on-small-only col l4">
+					<div class="row">
+						<div class="col l12 data">
+							<h2>Star Force</h2>
+							<h4>Ranking: 3.4</h4>
+							<h4>Followers: 150</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col l12 categorias">
+							<ul>
+								<li><a href="#">My Fanfics</a></li>
+					      <li class="divider"></li>
+					      <li><a href="#">Reviews</a></li>
+					      <li class="divider"></li>
+					      <li><a href="#">Following</a></li>
+					      <li class="divider"></li>
+					      <li><a href="#">Followers</a></li>
+								<li class="divider"></li>
+					      <li><a href="#">Bookmarks</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col s12 hide-on-large-only">
+					<a class='dropdown-button btn button' href='#' data-activates='dropdown3'>Categories <i class="material-icons right">arrow_drop_down</i></a>
+					<ul id='dropdown3' class='dropdown-content'>
+						<li><a href="#!">Anime</a></li>
+						<li class="divider"></li>
+						<li><a href="#!">Series</a></li>
+						<li class="divider"></li>
+						<li><a href="#!">Movies</a></li>
+						<li class="divider"></li>
+						<li><a href="#!">Books</a></li>
+						<li class="divider"></li>
+						<li><a href="#!">Animation</a></li>
+					</ul>
+				</div>
+				<div class="col s12 l7 offset-l1">
+					<div class="row">
+						<div class="col s12 l12 reciente">
+							<div class="carousel">
+								<h3>Star's Recent Stories</h3>
+						    <a class="carousel-item" href="#one!"><img src="assets/img/cover1.png"></a>
+						    <a class="carousel-item" href="#one!"><img src="assets/img/cover2.jpeg"></a>
+						    <a class="carousel-item" href="#one!"><img src="assets/img/cover3.png"></a>
+						    <a class="carousel-item" href="#one!"><img src="assets/img/cover4.jpg"></a>
+						    <a class="carousel-item" href="#one!"><img src="assets/img/cover5.jpg"></a>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
