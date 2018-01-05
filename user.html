@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>FicFan</title>
+	<title>FicFan - Your Profile</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -34,7 +34,7 @@
 	<div class="navbar-fixed">
 		<nav>
 		  <div class="nav-wrapper">
-		    <a href="#!" class="brand-logo">
+		    <a href="newsfeed.html" class="brand-logo">
 		    	<img src="assets/img/1_Primary_logo_on_transparent_321x642.png" alt="">
 		    </a>
 		    <a href="#" data-activates="mobile-demo" class="button-collapse">
@@ -91,7 +91,7 @@
 					<a href="#!" class="collection-item"><span class="badge">250</span>Following</a>
 					<a href="#!" class="collection-item"><span class="badge">150</span>Followers</a>
 					<a href="#!" class="collection-item"><span class="badge"><i class="fas fa-cogs right-align"></i></span>Settings</a>
-					<a href="#!" class="collection-item"><span class="badge"><i class="fas fa-times"></i></span>Close sesion</a>
+					<a href="index.html" class="collection-item"><span class="badge"><i class="fas fa-times"></i></span>Close sesion</a>
 				</div>
       </li>
     </ul>
@@ -140,8 +140,8 @@
 						<div class="col s12 l12 textarea">
 							<div class="row">
 								<ul class="tabs">
-					        <li class="tab col s3"><a href="#test1">Update</a></li>
-					        <li class="tab col s3"><a class="active" href="#test2">Fanfic</a></li>
+									<li class="tab col s3"><a class="active" href="#test2">Update</a></li>
+					        <li class="tab col s3"><a class="modal-trigger" href="#fanfic-modal">Write a Fanfic<a href="#test1"></a></li>
 					      </ul>
 							</div>
 							<div class="row">
@@ -189,6 +189,45 @@
       </div>
     </div>
   </footer>
+  <!-- Modal Fanfic -->
+  <div id="fanfic-modal" class="modal modal-fixed-footer">
+    <div class="modal-content">
+    	<div class="row">
+    		<div class="col s4 l4">
+    			<img class="fan-cover" src="assets/img/cover-friend3.jpg" style="max-width: 100%;" alt="">
+    			<div class="row">
+    				<div class="col s12 l12 center-align">
+    					<a class="btn" href="#!">Change</a>
+    				</div>
+    			</div>
+    		</div>
+		    <form class="col s6 offset-s1 l7 offset-l1">
+		    	<div class="row">
+		    		<div class="row">
+		        	<div class="input-field col s12 l12">
+		        		<input id="fic_name" type="text" class="validate">
+          			<label for="fic_name">Fan-Fic Title</label>
+		        	</div>
+		        </div>
+		    	</div>
+		      <div class="row">
+		        <div class="input-field col s12 l12">
+		          <textarea id="textarea1" class="materialize-textarea"></textarea>
+		          <label for="textarea1">Type your Fan-Fic here</label>
+		          <a href="#!" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Change de typography"><i class="fas fa-font"></i></a>
+		          <a href="#!" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Add an emoticon"><i class="far fa-smile"></i></a>
+		          <a href="#!" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Load an image"><i class="far fa-image"></i></a>
+		        </div>
+		      </div>
+		    </form>
+		    <div class="row">
+					<div class="col l2 offset-l10">
+						<a class="waves-effect waves-light btn" href="#!">Save</a>
+					</div>
+				</div>
+		  </div>
+		</div>
+  </div>
 
 	<!-- Scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

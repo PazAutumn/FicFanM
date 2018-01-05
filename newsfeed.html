@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>FicFan</title>
+  <title>FicFan - Newsfeed</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -20,11 +20,19 @@
     <li class="divider"></li>
     <li><a href="#!">English</a></li>
   </ul>
+  <ul id="dropdown3" class="dropdown-content">
+    <li>
+      <div class="collection">
+        <a href="#!" class="collection-item"><span class="badge"><i class="fas fa-cogs right-align"></i></span>Settings</a>
+        <a href="index.html" class="collection-item" id="close"><span class="badge"><i class="fas fa-times"></i></span>Close sesion</a>
+      </div>
+    </li>
+  </ul>
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper">
-        <a href="#!" class="brand-logo">
-          <img src="assets/img/1_Primary_logo_on_transparent_321x642.png" alt="FicFan Logo">
+        <a href="newsfeed.html" class="brand-logo">
+          <img src="assets/img/1_Primary_logo_on_transparent_321x642.png" alt="">
         </a>
         <a href="#" data-activates="mobile-demo" class="button-collapse">
           <i class="material-icons">menu</i>
@@ -43,7 +51,8 @@
           <li>
             <h5>Star Force</h5>
           </li>
-          <li><img class="responsive-img circle profile" style="width: 50px;" src="assets/img/profile.jpg" alt="Profile Picture"></li>
+          <li><a href="user.html"><img class="responsive-img circle profile" style="width: 50px;" src="assets/img/profile.jpg" alt=""></a></li>
+          <li><a class="dropdown-button" href="#!" data-activates="dropdown3"><i class="fas fa-ellipsis-v"></i></a></li>
         </ul>
       </div>
     </nav>
@@ -72,11 +81,16 @@
           </div>
         </form>
       </li>
-      <li><a href="#">My Fanfics</a></li>
-      <li class="divider"></li>
-      <li><a href="#">Reviews</a></li>
-      <li class="divider"></li>
-      <li><a href="#">Following</a></li>
+      <li>
+        <div class="collection">
+          <a href="#!" class="collection-item"><span class="badge">18</span>My Fanfics</a>
+          <a href="#!" class="collection-item"><span class="new badge">12</span>Reviews</a>
+          <a href="#!" class="collection-item"><span class="badge">250</span>Following</a>
+          <a href="#!" class="collection-item"><span class="badge">150</span>Followers</a>
+          <a href="#!" class="collection-item"><span class="badge"><i class="fas fa-cogs right-align"></i></span>Settings</a>
+          <a href="#!" class="collection-item"><span class="badge"><i class="fas fa-times"></i></span>Close sesion</a>
+        </div>
+      </li>
     </ul>
   </div>
   <!-- Newsfeed -->
@@ -121,7 +135,7 @@
             <div class="col 12 comment">
               <div class="row">
                 <div class="col l2">
-                  <img class="responsive-img circle profile-post" style="width: 50px;" src="assets/img/pearl.jpeg" alt="Profile Picture">
+                  <a href="friend.html"><img class="responsive-img circle profile-post" style="width: 50px;" src="assets/img/pearl.jpeg" alt="Profile Picture"></a>
                 </div>
                 <div class="col l9">
                   <h5 class="text-post">Pearl - Crystal Gem</h5>
@@ -339,7 +353,7 @@
             <div class="col l12 popular center-align">
               <div class="carousel">
                 <h3>Following</h3>
-                <a id="pearl-ff" class="carousel-item" href="#one!"><img class="responsive-img" src="assets/img/pearl.jpeg"><h3>Pearl</h3></a> 
+                <a href="friend.html"><a id="pearl-ff" class="carousel-item" href="#one!"><img class="responsive-img" src="assets/img/pearl.jpeg"><h3>Pearl</h3></a></a> 
                 <a id="marco-ff" class="carousel-item" href="#one!"><img class="responsive-img" src="assets/img/Marco.jpg"><h3>Marco</h3></a>
                 <a id="garnet-ff" class="carousel-item" href="#one!"><img class="responsive-img" src="assets/img/garnet.png"><h3>Garnet</h3></a>
               </div>

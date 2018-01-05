@@ -5,15 +5,10 @@ $(document).ready(function() {
   $(".button-collapse").sideNav();
   $('.carousel').carousel();
   $('.modal').modal();
-<<<<<<< Updated upstream
   $('ul.tabs').tabs();
+  $('.tooltipped').tooltip({delay: 50});
 
 /*
-=======
-  $('.tooltipped').tooltip({delay: 50});
-  
-  /*
->>>>>>> Stashed changes
   *Si es que no está vacío o no hay espacios en blanco, se habilita botón
   */ 
   $('#textarea1, #input-imgurl ').keyup(function() {
@@ -27,14 +22,8 @@ $(document).ready(function() {
   });
 
   /*
-<<<<<<< Updated upstream
-  *Postear
-  */ 
-
-=======
   *Postear Estado
   */ 
->>>>>>> Stashed changes
   $('#post').click(function() {
     /*
     * Hora del post
@@ -42,13 +31,6 @@ $(document).ready(function() {
     var d = new Date();
     var hour = d.toLocaleTimeString();
     var comment = $('#textarea1').val();
-<<<<<<< Updated upstream
-    $('#textarea1').val('');
-    var cont = $('#div-post').addClass('comment');
-    cont.append(
-      '<div class="row">' +
-      '<div class="col s2">' +
-=======
     var picture = $('#input-imgurl').val();
     $('#textarea1').val('');
     $('#input-imgurl').val('');
@@ -56,38 +38,26 @@ $(document).ready(function() {
     cont.append(
       '<div class="row comment">' +
       '<div id="newPost_' + idPost + '" class="col s2">' +
->>>>>>> Stashed changes
       '<img class="responsive-img circle profile-post" style="width: 50px;" src="assets/img/profile.jpg" alt="Profile Picture"></div>' + 
       '<div class="col s9">' +
       '<h5 class="text-post">Star Force</h5></div>' +
       '<div class="col s1">' + 
       '<i id="trash" class="fas fa-trash-alt delete-post"></i></div>' + 
       '<div class="col s12">' +
-<<<<<<< Updated upstream
-      '<hr>' + 
-      comment + 
-      '</p><br>' +
-=======
       '<hr><p class="post-update">' + 
       comment + 
       '</p><br>' +
       '<img class="responsive-img" src="' + (picture || "assets/img/white.png") + '" alt="..."></div>' +
       '<div class="row">' +
->>>>>>> Stashed changes
       '<div id="prueba" class="col s1 left-align">' +
       '<i id="heart" class="fas fa-heart"></i></div>' +
       '<div class="col s11"><p class="text right-align">' +
       hour +
       '</p></div></div></div>');
     $('#post').addClass('disabled');
-<<<<<<< Updated upstream
-
-    });
-=======
     idPost++;
 
   });
->>>>>>> Stashed changes
 
   /*
   *Eliminar Post
@@ -99,15 +69,6 @@ $(document).ready(function() {
   /*
   *Corazón
   */ 
-<<<<<<< Updated upstream
-  heart.click(function() {
-    console.log('funciono');
-    $(this).toggleClass("red-heart");
-  });
-
-
-});
-=======
   $('#heart').click(function() {
     if(this.hasClass('red-heart')) {
       $('#heart').removeClass('red-heart');
@@ -261,11 +222,6 @@ $(document).ready(function() {
 
  });
 
-
-
-
-
-
   /*
   *Eliminar amigo
   */ 
@@ -286,6 +242,3 @@ $(document).ready(function() {
 
 
 });
-
-
->>>>>>> Stashed changes

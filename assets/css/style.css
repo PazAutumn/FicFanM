@@ -66,6 +66,7 @@ nav {
 	background-color: #772C57;
 	border-radius: 5px;
 	color: white;
+	margin: 20px 0;
 }
 
 .categorias ul li a {
@@ -106,13 +107,6 @@ nav {
 
 .profile {
 	margin: 5px 10px;
-	transition-property: opacity;
-  transition-duration: .3s;
-  transition-timing-function: ease-in-out;
-}
-
-.profile:hover {
-	opacity: 0.7;
 }
 
 .profilePage {
@@ -160,7 +154,6 @@ nav {
   background-color: #772C57;
   color: #fff;
   margin-top: -10px;
-<<<<<<< Updated upstream
 }
 
 #login-modal p, #signup-modal p {
@@ -208,7 +201,13 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 	border-radius: 5px;
 }
 
-=======
+#textarea1 {
+	height: 45vh;
+	border: 2px solid gray;
+}
+
+.fan-cover {
+	border: 1px solid gray;
 }
 
 #login-modal p, #signup-modal p {
@@ -387,4 +386,3 @@ Corrección del Search en Chrome
 	display: inline-block;
 	font-size: 18px;
 }
->>>>>>> Stashed changes
