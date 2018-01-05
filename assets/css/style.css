@@ -468,3 +468,21 @@ nav ul a:hover {
 	margin-bottom: 100px;
 }
 
+.bookmark-title {
+	font-size: 15px;
+	font-weight: 700;
+	margin-top: 10px;
+}
+
+.bookmark {
+	color: #868e96;
+	transition-property: color;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+}
+
+.bookmark:hover {
+	color: initial;
+}
+
