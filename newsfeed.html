@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FicFan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- NavBar -->
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="#!">Spanish</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">English</a></li>
+  </ul>
+  <ul id="dropdown2" class="dropdown-content">
+    <li><a href="#!">Spanish</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">English</a></li>
+  </ul>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo">
+          <img src="assets/img/1_Primary_logo_on_transparent_321x642.png" alt="FicFan Logo">
+        </a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Language<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li>
+            <form>
+              <div class="input-field">
+                <input id="search" type="search" required>
+                <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                <i class="material-icons">close</i>
+              </div>
+            </form>
+          </li>
+          <li>
+            <h5>Star Force</h5>
+          </li>
+          <li><img class="responsive-img circle profile" style="width: 50px;" src="assets/img/profile.jpg" alt="Profile Picture"></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="nav-wrapper">
+    <ul class="side-nav" id="mobile-demo">
+      <li>
+        <div class="container">
+          <div class="row">
+            <div class="col s4">
+              <img class="responsive-img circle profile" style="width: 50px;" src="assets/img/profile.jpg" alt="">
+            </div>
+            <div class="col s8">
+              <h4>Star Force</h4>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Language<i class="material-icons right">arrow_drop_down</i></a></li>
+      <li>
+        <form>
+          <div class="input-field">
+            <input id="search" placeholder="Search" type="search" required>
+            <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+            <i class="material-icons">close</i>
+          </div>
+        </form>
+      </li>
+      <li><a href="#">My Fanfics</a></li>
+      <li class="divider"></li>
+      <li><a href="#">Reviews</a></li>
+      <li class="divider"></li>
+      <li><a href="#">Following</a></li>
+    </ul>
+  </div>
+  <!-- Newsfeed -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col l6">
+          <div class="row">
+            <div class="col 12 comment">
+              <div class="row">
+                <form class="col l12">
+                  <div class="row">
+                    <div class="input-field col l12">
+                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">Hey! it's time to write something...</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s4">
+                      <a id="post" class="waves-effect waves-light btn disabled">Post</a>
+                    </div>
+                    <div class="col s8">
+                      <form class="col s12">
+                        <div class="row">
+                          <div id="input-img" class="input-field col s12">
+                            <i class="fas fa-file-image material-icons prefix"></i>
+                            <input id="input-imgurl" type="text" class="validate">
+                            <label for="icon_prefix">Insert your URL</label>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div> 
+          <div class="row">
+            <div id="div-post" class="col s12"></div> 
+          </div>
+          <div id="friend-post" class="row">
+            <div class="col 12 comment">
+              <div class="row">
+                <div class="col l2">
+                  <img class="responsive-img circle profile-post" style="width: 50px;" src="assets/img/pearl.jpeg" alt="Profile Picture">
+                </div>
+                <div class="col l9">
+                  <h5 class="text-post">Pearl - Crystal Gem</h5>
+                </div>
+                <div class="col l1">
+                  <a class="tooltipped" data-position="bottom" data-delay="30" data-tooltip="Unfollow"><p id="unfollow">x</p></a>
+                </div>
+                <div class="col l12">
+                  <hr>
+                  <p class="post-update">Happy New Year!</p>
+                  <p class="post-update">Finally I've updated my SU fanfic!</p>
+                  <p class="post-update">Please, click in the image and give me your reviews
+                  <img class="emoji responsive-img" style="width: 20px;" src="assets/img/Wink_Emoji.png" alt="Wink Emoji"></p>
+                  <br>
+                </div>
+                <br>
+                <a href="#">
+                <img class="responsive-img" src="assets/img/fanfic-steven.jpg" alt="SU Fanfic"></a>
+              </div>
+              <div class="row">
+                <div class="col l1 left-align">
+                  <i id="heart" class="material-icons">favorite</i>
+                </div>
+                <div class="col l1 left-align">
+                  <p class="red-heart">130</p>
+                </div>
+                <div class="col l10">
+                  <p class="text right-align"> 00:01 AM</p>
+                </div>
+              </div>
+              <hr>
+              <div class="col 12 comment">
+                <div class="row">
+                <div id="new-comment"></div>
+                  <form class="col l12">
+                    <div class="row">
+                      <div class="col l2">
+                       <img class="responsive-img circle profile" style="width: 40px;" src="assets/img/profile.jpg" alt="Profile Picture">
+                      </div>
+                      <div class="input-field col l10">
+                        <textarea id="textarea2" class="materialize-textarea"></textarea>
+                        <label for="textarea2">Insert your comment...</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col s4">
+                        <a id="comment-post" class="waves-effect waves-light btn disabled">Comment</a>
+                      </div>
+                      <div class="col s8">
+                        <form class="col s12">
+                          <div class="row">
+                            <div id="input-img" class="input-field col s12">
+                              <i class="fas fa-file-image material-icons prefix"></i>
+                              <input id="input-img-comment" type="text" class="validate">
+                              <label for="icon_prefix">Insert your URL</label>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="friend-post2" class="row">
+            <div class="col 12 comment">
+              <div class="row">
+                <div class="col l2">
+                  <img class="responsive-img circle profile-post" style="width: 50px;" src="assets/img/Marco.jpg" alt="Profile Picture">
+                </div>
+                <div class="col l9">
+                  <h5 class="text-post">Marco Starforce</h5>
+                </div>
+                <div class="col l1">
+                  <a class="tooltipped" data-position="bottom" data-delay="30" data-tooltip="Unfollow"><p id="unfollow2">x</p></a>
+                </div>
+                <div class="col l12">
+                  <hr>
+                  <p class="post-update">This Saturday I will update my two fanficssss</p>
+                  <br>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col l1 left-align">
+                  <i id="heart" class="fas fa-heart"></i>
+                </div>
+                <div class="col l1 left-align">
+                  <p class="red-heart">67</p>
+                </div>
+                <div class="col l10">
+                  <p class="text right-align"> 22:33 AM</p>
+                </div>
+              </div>
+              <hr>
+              <div class="col 12 comment">
+                <div class="row">
+                <div id="new-comment2"></div>
+                  <form class="col l12">
+                    <div class="row">
+                      <div class="col l2">
+                       <img class="responsive-img circle profile" style="width: 40px;" src="assets/img/profile.jpg" alt="Profile Picture">
+                      </div>
+                      <div class="input-field col l10">
+                        <textarea id="textarea3" class="materialize-textarea"></textarea>
+                        <label for="textarea3">Insert your comment...</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col s4">
+                        <a id="comment-post2" class="waves-effect waves-light btn disabled">Comment</a>
+                      </div>
+                      <div class="col s8">
+                        <form class="col s12">
+                          <div class="row">
+                            <div id="input-img" class="input-field col s12">
+                              <i class="fas fa-file-image material-icons prefix"></i>
+                              <input id="input-img-comment2" type="text" class="validate">
+                              <label for="icon_prefix">Insert your URL</label>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <div id="friend-post3" class="row">
+            <div class="col 12 comment">
+              <div class="row">
+                <div class="col l2">
+                  <img class="responsive-img circle profile-post" style="width: 50px;" src="assets/img/garnet.png" alt="Profile Picture">
+                </div>
+                <div class="col l9">
+                  <h5 class="text-post">Garnet - StrongerThanYou</h5>
+                </div>
+                <div class="col l1">
+                  <a class="tooltipped" data-position="bottom" data-delay="30" data-tooltip="Unfollow"><p id="unfollow3">x</p></a>
+                </div>
+                <div class="col l12">
+                  <hr>
+                  <p class="post-update">I need read moooooore SU fanfics right now!</p>
+                  <br>
+                  <img class="responsive-img" src="assets/img/garnetok.gif" alt="Garnet's Gif">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col l1 left-align">
+                  <i id="heart" class="fas fa-heart"></i>
+                </div>
+                <div class="col l1 left-align">
+                  <p class="red-heart">25</p>
+                </div>
+                <div class="col l10">
+                  <p class="text right-align"> 19:34 AM</p>
+                </div>
+              </div>
+              <hr>
+              <div class="col 12 comment">
+                <div class="row">
+                <div id="new-comment3"></div>
+                  <form class="col l12">
+                    <div class="row">
+                      <div class="col l2">
+                       <img class="responsive-img circle profile" style="width: 40px;" src="assets/img/profile.jpg" alt="Profile Picture">
+                      </div>
+                      <div class="input-field col l10">
+                        <textarea id="textarea4" class="materialize-textarea"></textarea>
+                        <label for="textarea4">Insert your comment...</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col s4">
+                        <a id="comment-post3" class="waves-effect waves-light btn disabled">Comment</a>
+                      </div>
+                      <div class="col s8">
+                        <form class="col s12">
+                          <div class="row">
+                            <div id="input-img" class="input-field col s12">
+                              <i class="fas fa-file-image material-icons prefix"></i>
+                              <input id="input-img-comment3" type="text" class="validate">
+                              <label for="icon_prefix">Insert your URL</label>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+        <div class="col l5 offset-l1">
+          <div class="row">
+            <div id="news-categ" class="col l12">
+              <a class='dropdown-button btn button' href='#' data-activates='dropdown3'> <p class="cat-title">Categories</p> <i class="material-icons right">arrow_drop_down</i></a>
+              <ul id='dropdown3' class='dropdown-content'>
+                <li><a href="#!">Anime</a></li>
+                <li class="divider"></li>
+                <li><a href="#!">Series</a></li>
+                <li class="divider"></li>
+                <li><a href="#!">Movies</a></li>
+                <li class="divider"></li>
+                <li><a href="#!">Books</a></li>
+                <li class="divider"></li>
+                <li><a href="#!">Animation</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col l12 popular center-align">
+              <div class="carousel">
+                <h3>Following</h3>
+                <a id="pearl-ff" class="carousel-item" href="#one!"><img class="responsive-img" src="assets/img/pearl.jpeg"><h3>Pearl</h3></a> 
+                <a id="marco-ff" class="carousel-item" href="#one!"><img class="responsive-img" src="assets/img/Marco.jpg"><h3>Marco</h3></a>
+                <a id="garnet-ff" class="carousel-item" href="#one!"><img class="responsive-img" src="assets/img/garnet.png"><h3>Garnet</h3></a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col l12 popular center-align">
+              <div class="carousel">
+                <h3>Bookmarks</h3>
+                <a class="carousel-item" href="#one!"><img class="responsive-img" src="assets/img/star_vs_the_forces_of_evil_by_camanalli-d8sw1fw.png"></a>
+                <a class="carousel-item" href="#one!"><img class="responsive-img" src="assets/img/star_butterfly_magic_wand_vector_by_sparxyz-d9h4ff8.png"></a>
+                <a class="carousel-item" href="#one!"><img class="responsive-img" src="assets/img/Star_vs._The_Forces_of_Evil_-_Portuguese_Icon.png"></a>
+                <a class="carousel-item" href="#one!"><img class="responsive-img" src="assets/img/Star_vs_the_Forces_of_Evil_logo.png"></a>
+                <a class="carousel-item" href="#one!"><img class="responsive-img" src="assets/img/star_vs_foe_logo.png"></a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col l12 popular center-align">
+              <div class="carousel">
+                <h3>Popular</h3>
+                <a class="carousel-item" href="#one!"><img class="responsive-img" src="assets/img/star_vs_the_forces_of_evil_by_camanalli-d8sw1fw.png"></a>
+                <a class="carousel-item" href="#one!"><img class="responsive-img" src="assets/img/star_butterfly_magic_wand_vector_by_sparxyz-d9h4ff8.png"></a>
+                <a class="carousel-item" href="#one!"><img class="responsive-img" src="assets/img/Star_vs._The_Forces_of_Evil_-_Portuguese_Icon.png"></a>
+                <a class="carousel-item" href="#one!"><img class="responsive-img" src="assets/img/Star_vs_the_Forces_of_Evil_logo.png"></a>
+                <a class="carousel-item" href="#one!"><img class="responsive-img" src="assets/img/star_vs_foe_logo.png"></a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col l12 popular center-align">
+              <div class="carousel">
+                <h3>Recent Stories</h3>
+                <a class="carousel-item" href="#one!"><img class="responsive-img" src="assets/img/star_vs_the_forces_of_evil_by_camanalli-d8sw1fw.png"></a>
+                <a class="carousel-item" href="#one!"><img class="responsive-img" src="assets/img/star_butterfly_magic_wand_vector_by_sparxyz-d9h4ff8.png"></a>
+                <a class="carousel-item" href="#one!"><img class="responsive-img" src="assets/img/Star_vs._The_Forces_of_Evil_-_Portuguese_Icon.png"></a>
+                <a class="carousel-item" href="#one!"><img class="responsive-img" src="assets/img/Star_vs_the_Forces_of_Evil_logo.png"></a>
+                <a class="carousel-item" href="#one!"><img class="responsive-img" src="assets/img/star_vs_foe_logo.png"></a>
+              </div>
+            </div>
+          </div>
+         </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+  <!-- JS del Documento -->
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+
+</body>
+</html>
