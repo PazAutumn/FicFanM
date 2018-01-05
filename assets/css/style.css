@@ -155,25 +155,6 @@ nav {
   background-color: #772C57;
   color: #fff;
   margin-top: -10px;
-<<<<<<< Updated upstream
-}
-
-#login-modal p, #signup-modal p {
-	color: #772C57;
-}
-
-.welcome {
-	font-weight: 800;
-	font-size: 15px;
-}
-
-svg.svg-inline--fa.fa-facebook-f.fa-w-9 {
-	margin-right: 12px;
-}
-
-#login-modal hr, #signup-modal hr {
-	border: 1px solid #772C57;
-	margin-top: 10px;
 }
 
 .start-btn {
@@ -184,11 +165,6 @@ svg.svg-inline--fa.fa-facebook-f.fa-w-9 {
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
 }
 
-input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
-	height: 2rem;
-=======
->>>>>>> Stashed changes
-}
 
 .page-footer {
 	background-color: #772C57;
@@ -205,18 +181,12 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 	border-radius: 5px;
 }
 
-<<<<<<< Updated upstream
-#textarea1 {
-	height: 45vh;
-	border: 2px solid gray;
-}
+
 
 .fan-cover {
 	border: 1px solid gray;
 }
 
-=======
->>>>>>> Stashed changes
 #login-modal p, #signup-modal p {
 	color: #772C57;
 }
@@ -292,7 +262,7 @@ Corrección del Search en Chrome
 
 .text {
 	color: #ad7494;
-	font-size: 10px;
+	font-size: 14px;
 	margin-right: 10px;
 }
 
@@ -392,9 +362,6 @@ Corrección del Search en Chrome
 	font-weight: 800;
 	display: inline-block;
 	font-size: 18px;
-<<<<<<< Updated upstream
-}
-=======
 }
 
 nav ul a {
@@ -500,4 +467,4 @@ nav ul a:hover {
 #fanfic-story {
 	margin-bottom: 100px;
 }
->>>>>>> Stashed changes
+

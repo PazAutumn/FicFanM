@@ -5,17 +5,10 @@ $(document).ready(function() {
   $(".button-collapse").sideNav();
   $('.carousel').carousel();
   $('.modal').modal();
-<<<<<<< Updated upstream
   $('ul.tabs').tabs();
   $('.tooltipped').tooltip({delay: 50});
 
-/*
-=======
-  $('.tooltipped').tooltip({delay: 50});
-  $('ul.tabs').tabs();
-  
   /*
->>>>>>> Stashed changes
   *Si es que no está vacío o no hay espacios en blanco, se habilita botón
   */ 
   $('#textarea1, #input-imgurl ').keyup(function() {
@@ -278,8 +271,4 @@ $(document).ready(function() {
   });
 
 });
-<<<<<<< Updated upstream
-=======
 
-
->>>>>>> Stashed changes
