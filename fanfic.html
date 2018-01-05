@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FicFan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <!-- Mukta Malar Tipografía -->
+  <link href="https://fonts.googleapis.com/css?family=Mukta+Malar:400,500,700,800" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+  <link rel="icon" href="assets/img/favicon.png" type="image/png">
+</head>
+<body>
+  <!-- NavBar -->
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="#!">Spanish</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">English</a></li>
+  </ul>
+  <ul id="dropdown2" class="dropdown-content">
+    <li><a href="#!">Spanish</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">English</a></li>
+  </ul>
+  <ul id="dropdown3" class="dropdown-content">
+    <li>
+      <div class="collection">
+        <a href="#!" class="collection-item"><span class="badge"><i class="fas fa-cogs right-align"></i></span>Settings</a>
+        <a href="index.html" class="collection-item" id="close"><span class="badge"><i class="fas fa-times"></i></span>Close sesion</a>
+      </div>
+    </li>
+  </ul>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="newsfeed.html" class="brand-logo responsive-img">
+          <img src="assets/img/ficfan-logo.png" alt="FicFan Logo">
+        </a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Language<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li>
+            <form>
+              <div class="input-field">
+                <input id="search" type="search" required>
+                <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                <i class="material-icons">close</i>
+              </div>
+            </form>
+          </li>
+          <li>
+            <h5>Star Force</h5>
+          </li>
+          <li><a href="user.html"><img class="responsive-img circle profile" style="width: 50px;" src="assets/img/profile.jpg" alt=""></a></li>
+          <li><a class="dropdown-button" href="#!" data-activates="dropdown3"><i class="fas fa-ellipsis-v"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="nav-wrapper">
+    <ul class="side-nav" id="mobile-demo">
+      <li>
+        <div class="container">
+          <div class="row">
+            <div class="col s4">
+              <img class="responsive-img circle profile" style="width: 50px;" src="assets/img/profile.jpg" alt="">
+            </div>
+            <div class="col s8">
+              <h4>Star Force</h4>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Language<i class="material-icons right">arrow_drop_down</i></a></li>
+      <li>
+        <form>
+          <div class="input-field">
+            <input id="search" placeholder="Search" type="search" required>
+            <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+            <i class="material-icons">close</i>
+          </div>
+        </form>
+      </li>
+      <li>
+        <div class="collection">
+          <a href="#!" class="collection-item"><span class="badge">18</span>My Fanfics</a>
+          <a href="#!" class="collection-item"><span class="new badge">12</span>Reviews</a>
+          <a href="#!" class="collection-item"><span class="badge">250</span>Following</a>
+          <a href="#!" class="collection-item"><span class="badge">150</span>Followers</a>
+          <a href="#!" class="collection-item"><span class="badge"><i class="fas fa-cogs right-align"></i></span>Settings</a>
+          <a href="#!" class="collection-item"><span class="badge"><i class="fas fa-times"></i></span>Close sesion</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <!-- Fanfic Section -->
+  <section>
+    <div class="container">
+      <div class="row comment">
+        <div class="col l12">
+          <div class="row">
+            <div class="col l9">
+              <h5 class="fanfic-title">Steven Universe Fanfic - Part V: The End Begins </h3>
+            </div>
+            <div class="col l3 left-align">
+              <p class=" rate">Rate</p>
+              <i class="far fa-star star-rate"></i>
+              <i class="far fa-star star-rate"></i>
+              <i class="far fa-star star-rate"></i>
+              <i class="far fa-star star-rate"></i>
+              <i class="far fa-star star-rate"></i>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div id="bg-fanfic" class="row comment fix-margin">
+        <div class="col l4">
+          <img class="img-fic responsive-img center-align" src="assets/img/fanfic-steven.jpg" alt="Steven Universe Fanfic">
+          <p class="center-align author">Author:</p>
+          <div class="row">
+            <div class="col l4 right-align">
+              <a href="friend.html"><img class="responsive-img circle profile-post" style="width: 30px;" src="assets/img/pearl.jpeg" alt="Profile Picture"></a>
+            </div>
+            <div class="col l8">
+              <p class="author-name">Pearl - Crystal Gem</p>
+            </div>
+            <div class="col l12 center-align fix-margin">
+              <p class="rate">4.5</p>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+             <i class="fas fa-star-half"></i>
+             <p class="rated turquoise">Rated by 132 users</p>
+             <div class="turquoise chip">Series</div>
+             <div class="turquoise chip">Steven Universe</div>
+            </div>
+          </div>
+        </div>
+        <div class="col l8">
+          <div class="col s12">
+            <ul class="tabs">
+              <li id="fontColor" class="tab col s4"><a href="#test1">Font Color</a></li>
+              <li id="fontSize" class="tab col s4"><a class="active" href="#test2">Font Size</a></li>
+              <li id="bgColor" class="tab col s4"><a href="#test4">Background Color</a></li>
+            </ul>
+          </div>
+        <div class="col l10 offset-l1 add-margin">
+          <p id="fanfic-story" class="def-font def-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique repudiandae aut vitae sed harum veniam repellendus! Aliquid, corporis labore doloribus officiis omnis ducimus officia accusamus! Magnam cumque minus tenetur, quos.
+          <br>
+          <br>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, nulla minima molestiae iusto tempore atque numquam necessitatibus. Voluptatem consequuntur rerum sed omnis ex soluta, minus fuga non tempore, accusantium laborum.
+          <br>
+          <br>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, maiores, nostrum. Eaque earum delectus rerum, laboriosam accusamus perspiciatis nesciunt nostrum. Nostrum assumenda voluptate hic nihil, velit aliquam distinctio magni eaque.
+          <br>
+          <br>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, nulla minima molestiae iusto tempore atque numquam necessitatibus. Voluptatem consequuntur rerum sed omnis ex soluta, minus fuga non tempore, accusantium laborum.
+          </p>
+          <hr>
+          </div>
+          <div class="col 12 comment">
+                <div class="row">
+                <div id="new-comment"></div>
+                  <form class="col l12">
+                    <div class="row">
+                      <div class="col l2">
+                       <img class="responsive-img circle profile" style="width: 40px;" src="assets/img/profile.jpg" alt="Profile Picture">
+                      </div>
+                      <div class="input-field col l10">
+                        <textarea id="textarea2" class="materialize-textarea"></textarea>
+                        <label for="textarea2">Insert your comment...</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col s4">
+                        <a id="comment-post" class="waves-effect waves-light btn disabled">Comment</a>
+                      </div>
+                      <div class="col s8">
+                        <form class="col s12">
+                          <div class="row">
+                            <div id="input-img" class="input-field col s12">
+                              <i class="fas fa-file-image material-icons prefix"></i>
+                              <input id="input-img-comment" type="text" class="validate">
+                              <label for="icon_prefix">Insert your URL</label>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+
+                  </form>
+                </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col l12 popular center-align">
+          <div class="carousel">
+            <h4>Other fanfics recommended for you</h4>
+            <a class="carousel-item" href="#one!"><img src="assets/img/cover1-1.png"><p>A new start</p></a>
+            <a class="carousel-item" href="#one!"><img src="assets/img/cover2-2.jpeg"><p>True Friendship</p></a>
+            <a class="carousel-item" href="#one!"><img src="assets/img/cover3-3.png"><p>We are ready!</p></a>
+            <a class="carousel-item" href="#one!"><img src="assets/img/cover4.jpg"><p>Silence</p></a>
+            <a class="carousel-item" href="#one!"><img src="assets/img/cover5.jpg"><p>Our favorite things</p></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- footer -->
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">FicFan</h5>
+          <p class="grey-text text-lighten-4">A space made for fans by fans</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Find us in our social networks!</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-facebook-f"></i>Facebook</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-twitter"> </i> Twitter</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-apple"> </i> Available in IOS</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-android"> </i> Available in Android</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2017 FicFan
+        <a class="grey-text text-lighten-4 right" href="#!">FAQ</a>
+      </div>
+    </div>
+  </footer>
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+  <!-- JS del Documento -->
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+
+</body>
+</html>

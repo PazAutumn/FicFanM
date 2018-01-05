@@ -5,10 +5,17 @@ $(document).ready(function() {
   $(".button-collapse").sideNav();
   $('.carousel').carousel();
   $('.modal').modal();
+<<<<<<< Updated upstream
   $('ul.tabs').tabs();
   $('.tooltipped').tooltip({delay: 50});
 
 /*
+=======
+  $('.tooltipped').tooltip({delay: 50});
+  $('ul.tabs').tabs();
+  
+  /*
+>>>>>>> Stashed changes
   *Si es que no está vacío o no hay espacios en blanco, se habilita botón
   */ 
   $('#textarea1, #input-imgurl ').keyup(function() {
@@ -240,5 +247,39 @@ $(document).ready(function() {
    $('#garnet-ff').remove();
   });
 
+  $('#fontColor').click(function() {
+    if ($('#fanfic-story').hasClass('def-color')) {
+      $('#fanfic-story').removeClass('def-color');
+      $('#fanfic-story').addClass('font-lightColor');
+    } else {
+      $('#fanfic-story').removeClass('font-lightColor');
+      $('#fanfic-story').addClass('def-color');
+    }
+  });
+
+  $('#fontSize').click(function() {
+    if ($('#fanfic-story').hasClass('def-font')) {
+      $('#fanfic-story').removeClass('def-font');
+      $('#fanfic-story').addClass('font-bigger');
+    } else {
+      $('#fanfic-story').removeClass('font-bigger');
+      $('#fanfic-story').addClass('def-font');
+    }
+  });
+
+  $('#bgColor').click(function() {
+    if ($('#bg-fanfic').hasClass('comment')) {
+      $('#bg-fanfic').removeClass('comment');
+      $('#bg-fanfic').addClass('bg-dark');
+    } else {
+      $('#bg-fanfic').removeClass('bg-dark');
+      $('#bg-fanfic').addClass('comment');
+    }
+  });
 
 });
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes

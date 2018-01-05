@@ -19,8 +19,9 @@ nav {
 }
 
 .brand-logo img {
-	width: 100%;
-	height: auto;
+    width: auto;
+    height: 57px;
+    margin-left: 30px;
 }
 
 .star {
@@ -29,9 +30,9 @@ nav {
 }
 
 .ficfan {
-	width: 100%;
+	width: 59%;
 	height: auto;
-	padding: 30px;
+	padding: 10px;
 }
 
 .info {
@@ -154,6 +155,7 @@ nav {
   background-color: #772C57;
   color: #fff;
   margin-top: -10px;
+<<<<<<< Updated upstream
 }
 
 #login-modal p, #signup-modal p {
@@ -184,6 +186,8 @@ svg.svg-inline--fa.fa-facebook-f.fa-w-9 {
 
 input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
 	height: 2rem;
+=======
+>>>>>>> Stashed changes
 }
 
 .page-footer {
@@ -196,11 +200,12 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 	padding: 5px;
 }
 
-.textarea{
+.textarea {
 	background-color: white;
 	border-radius: 5px;
 }
 
+<<<<<<< Updated upstream
 #textarea1 {
 	height: 45vh;
 	border: 2px solid gray;
@@ -210,6 +215,8 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 	border: 1px solid gray;
 }
 
+=======
+>>>>>>> Stashed changes
 #login-modal p, #signup-modal p {
 	color: #772C57;
 }
@@ -263,7 +270,7 @@ Corrección del Search en Chrome
 	height: auto;
 }
 
-#post, #comment-post {
+#post, #comment-post, #comment-post2, #comment-post3 {
 	margin-top: -20px;
 }
 
@@ -301,7 +308,7 @@ Corrección del Search en Chrome
 	opacity: 0.7;
 }
 
-.delete-post, #unfollow, #unfollow2, #unfollow3 {
+.delete-post, #unfollow, #unfollow2, #unfollow3, .star-rate {
 	margin-top: 20px;
 	color: #868e96;
 	transition-property: color;
@@ -310,7 +317,7 @@ Corrección del Search en Chrome
   cursor: pointer;
 }
 
-.delete-post:hover, #unfollow:hover, #unfollow2:hover, #unfollow3:hover {
+.delete-post:hover, #unfollow:hover, #unfollow2:hover, #unfollow3:hover, .star-rate:hover {
 	color: initial;
 }
 
@@ -375,7 +382,7 @@ Corrección del Search en Chrome
 	margin-top: 20px;
 }
 
-.carousel h3 {
+.carousel h3, .carousel h4 {
 	font-weight: 800;
 	font-size: 30px;
 	text-transform: uppercase;
@@ -385,4 +392,112 @@ Corrección del Search en Chrome
 	font-weight: 800;
 	display: inline-block;
 	font-size: 18px;
+<<<<<<< Updated upstream
 }
+=======
+}
+
+nav ul a {
+	background-color: transparent;
+}
+
+nav ul a:hover {
+	background-color: transparent;
+}
+
+.shadowfilter {
+  -webkit-filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.5));
+}
+
+.carousel p {
+	font-size: 20px;
+	font-weight: 800;
+	margin-bottom: 10px;
+}
+
+.carousel-item {
+	margin-bottom: 10px;
+}
+
+.rate {
+	display: inline-block;
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+.fanfic-title {
+	font-weight: 800;
+	color: #772C57;
+	margin-top: 15px;
+}
+
+.fix-margin {
+	margin-top: -21px;
+}
+
+.author {
+	margin-top: 7px;
+	margin-bottom: -10px;
+}
+
+.author-name {
+	display: inline-block;
+	color: #772C57;
+	font-weight: 800;
+	margin-top: 10px;
+	margin-left: -14px;
+}
+
+.rated {
+	margin-top: -5px;
+	margin-bottom: 5px;
+}
+
+.turquoise {
+	color: #03755e;
+}
+
+.categorie-fanfic {
+	margin-top: 5px;
+	font-size: 18px;
+	font-weight: 800;
+}
+
+.img-fic {
+	margin-top: 10px;
+}
+
+.add-margin {
+	margin-top: 15px;
+}
+
+.def-color {
+	color: #161616;
+}
+
+.font-lightColor {
+	color: #726767;
+}
+
+.def-font {
+	font-size: 15px;
+}
+
+.font-bigger {
+	font-size: 20px;
+}
+
+.bg-dark {
+	background-color: #fff5e0;
+	width: 100%;
+	height: auto;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	padding-top: 5px;
+}
+
+#fanfic-story {
+	margin-bottom: 100px;
+}
+>>>>>>> Stashed changes
