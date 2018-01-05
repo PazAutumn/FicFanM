@@ -1,17 +1,19 @@
 # FicFanM
-FicFan es una red social enfocada a los amantes de fanfics, los fanfic son historias ficticias basadas en obras ya publicadas realizadas por fans y para fans.
 
-Esta red tiene como propósito reunir tanto a lectores de fanfics, como a escritores de ellos. Por lo cual se plantea una plataforma en la que puedan interactuar entre ellos.
+### FicFan es una red social enfocada a los amantes de fanfics, los fanfic son historias ficticias basadas en obras ya publicadas realizadas por fans y para fans.
+
+Esta red tiene como propósito reunir tanto a lectores de fanfics, como a escritores de ellos. Por lo cual se plantea una plataforma en la que ambos puedan interactuar.
 Para esto determinamos ciertas funcionalidades que debe tener:
-- Poder ingresar al sitio (vía email o facebook)
+- Poder ingresar al sitio (vía email o facebook) y cerrar sesión
 - Contar con un perfil de usuario (editar: foto, nombre, publicar un estado, ver ranking)
 - Ver perfil de otros usuarios
 - Comentar en el newsfeed, perfiles o en los fanfics
-- Añadir o elmininar amigos/seguidores
+- Añadir o elmininar amigos/seguidos
 - Valorar fanfics
 - Postear imágenes
 - Buscar por categoría o por palabra
 - Guardar las historias en Bookmarks
+- Escribir tu propio Fanfic
 - Recomendar Fanfics similares a los ya leídos
 - Permitir un mayor feedback con tus lectores o tu autor favorito
 - Dar una interface amigable para la lectura, pudiendo personalizar intensidad del color y tamaño de la tipografía, adicionalmente de cambiar el color de fondo.
